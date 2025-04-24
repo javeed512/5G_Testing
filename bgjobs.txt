@@ -1,0 +1,2 @@
+[1]-  Stopped                 cat >> input.txt
+[2]+  Stopped                 less input.txt

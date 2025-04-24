@@ -1,0 +1,166 @@
+DELL@DESKTOP-8Q19HR3 MINGW64 ~
+$ ls
+'3D Objects'/            'Local Settings'@                                                                               Recent@
+ AppData/                 Music/                                                                                        'Saved Games'/
+'Application Data'@      'My Documents'@                                                                                 Searches/
+ Contacts/                NTUSER.DAT                                                                                     SendTo@
+ Cookies@                 NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TM.blf                                       'Start Menu'@
+ Desktop/                 NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TMContainer00000000000000000001.regtrans-ms   Templates@
+ Documents/               NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TMContainer00000000000000000002.regtrans-ms   Videos/
+ Downloads/               NetHood@                                                                                       eclipse/
+ Favorites/               OneDrive/                                                                                      ntuser.dat.LOG1
+ IntelGraphicsProfiles/   Pictures/                                                                                      ntuser.dat.LOG2
+ Links/                   PrintHood@                                                                                     ntuser.ini
+
+DELL@DESKTOP-8Q19HR3 MINGW64 ~
+$ cd d
+bash: cd: d: No such file or directory
+
+DELL@DESKTOP-8Q19HR3 MINGW64 ~
+$ cd /
+
+DELL@DESKTOP-8Q19HR3 MINGW64 /
+$ cd  d
+
+DELL@DESKTOP-8Q19HR3 MINGW64 /d
+$ cd  5G_Testing_Repo/
+
+DELL@DESKTOP-8Q19HR3 MINGW64 /d/5G_Testing_Repo (master)
+$ ls
+'5G_Testing_Repo - Shortcut.lnk'*   Linux_Commands.txt   input.txt   kernel.png          linux_setup.pdf   products.txt
+ Intro-to-Linux_Commands.pdf        commands_file.txt    items.txt   kernel_design.jpg   myfile.txt        user/
+
+DELL@DESKTOP-8Q19HR3 MINGW64 /d/5G_Testing_Repo (master)
+$ ls -d i*
+input.txt  items.txt
+
+DELL@DESKTOP-8Q19HR3 MINGW64 /d/5G_Testing_Repo (master)
+$ ls  -lS
+total 2588
+-rw-r--r-- 1 DELL 197121 2172321 Jan 27 13:42  Intro-to-Linux_Commands.pdf
+-rw-r--r-- 1 DELL 197121  430507 Jan 27 13:42  linux_setup.pdf
+-rw-r--r-- 1 DELL 197121   11399 Jan 28 11:34  Linux_Commands.txt
+-rw-r--r-- 1 DELL 197121    6013 Jan 27 13:42  kernel.png
+-rw-r--r-- 1 DELL 197121    5296 Jan 27 13:42  kernel_design.jpg
+-rw-r--r-- 1 DELL 197121    4056 Apr 24 13:13  commands_file.txt
+-rwxr-xr-x 1 DELL 197121     771 Apr 24 17:06 '5G_Testing_Repo - Shortcut.lnk'*
+-rw-r--r-- 1 DELL 197121      99 Apr 24 12:56  items.txt
+-rw-r--r-- 1 DELL 197121      99 Apr 24 13:08  products.txt
+-rw-r--r-- 1 DELL 197121      49 Apr 24 12:50  myfile.txt
+-rw-r--r-- 1 DELL 197121      37 Apr 24 16:20  input.txt
+drwxr-xr-x 1 DELL 197121       0 Apr 24 17:07  user/
+
+DELL@DESKTOP-8Q19HR3 MINGW64 /d/5G_Testing_Repo (master)
+$ ls  -lt
+total 2588
+drwxr-xr-x 1 DELL 197121       0 Apr 24 17:07  user/
+-rwxr-xr-x 1 DELL 197121     771 Apr 24 17:06 '5G_Testing_Repo - Shortcut.lnk'*
+-rw-r--r-- 1 DELL 197121      37 Apr 24 16:20  input.txt
+-rw-r--r-- 1 DELL 197121    4056 Apr 24 13:13  commands_file.txt
+-rw-r--r-- 1 DELL 197121      99 Apr 24 13:08  products.txt
+-rw-r--r-- 1 DELL 197121      99 Apr 24 12:56  items.txt
+-rw-r--r-- 1 DELL 197121      49 Apr 24 12:50  myfile.txt
+-rw-r--r-- 1 DELL 197121   11399 Jan 28 11:34  Linux_Commands.txt
+-rw-r--r-- 1 DELL 197121  430507 Jan 27 13:42  linux_setup.pdf
+-rw-r--r-- 1 DELL 197121    6013 Jan 27 13:42  kernel.png
+-rw-r--r-- 1 DELL 197121    5296 Jan 27 13:42  kernel_design.jpg
+-rw-r--r-- 1 DELL 197121 2172321 Jan 27 13:42  Intro-to-Linux_Commands.pdf
+
+DELL@DESKTOP-8Q19HR3 MINGW64 /d/5G_Testing_Repo (master)
+$ file input.txt
+input.txt: ASCII text
+
+DELL@DESKTOP-8Q19HR3 MINGW64 /d/5G_Testing_Repo (master)
+$ file  user
+user: directory
+
+DELL@DESKTOP-8Q19HR3 MINGW64 /d/5G_Testing_Repo (master)
+$ file  Intro-to-Linux_Commands.pdf
+Intro-to-Linux_Commands.pdf: PDF document, version 1.4, 71 page(s)
+
+DELL@DESKTOP-8Q19HR3 MINGW64 /d/5G_Testing_Repo (master)
+$ less in
+Intro-to-Linux_Commands.pdf  input.txt
+
+DELL@DESKTOP-8Q19HR3 MINGW64 /d/5G_Testing_Repo (master)
+$ less input.txt
+
+[2]+  Stopped                 less input.txt
+
+DELL@DESKTOP-8Q19HR3 MINGW64 /d/5G_Testing_Repo (master)
+$ pf  date
+bash: pf: command not found
+
+DELL@DESKTOP-8Q19HR3 MINGW64 /d/5G_Testing_Repo (master)
+$ ps
+      PID    PPID    PGID     WINPID   TTY         UID    STIME COMMAND
+S    1520    1275    1520      13284  pty0      197609 16:20:00 /usr/bin/cat
+     1275    1274    1275       2440  pty0      197609 14:56:50 /usr/bin/bash
+     1718    1275    1718       9060  pty0      197609 17:27:28 /usr/bin/ps
+     1274       1    1274        456  ?         197609 14:56:50 /usr/bin/mintty
+S    1708    1275    1708       7216  pty0      197609 17:23:58 /usr/bin/less
+
+DELL@DESKTOP-8Q19HR3 MINGW64 /d/5G_Testing_Repo (master)
+$ ps
+      PID    PPID    PGID     WINPID   TTY         UID    STIME COMMAND
+S    1520    1275    1520      13284  pty0      197609 16:20:00 /usr/bin/cat
+     1275    1274    1275       2440  pty0      197609 14:56:50 /usr/bin/bash
+     1274       1    1274        456  ?         197609 14:56:50 /usr/bin/mintty
+     1723    1275    1723       7092  pty0      197609 17:29:35 /usr/bin/ps
+S    1708    1275    1708       7216  pty0      197609 17:23:58 /usr/bin/less
+
+DELL@DESKTOP-8Q19HR3 MINGW64 /d/5G_Testing_Repo (master)
+$ kill 1725
+bash: kill: (1725) - No such process
+
+DELL@DESKTOP-8Q19HR3 MINGW64 /d/5G_Testing_Repo (master)
+$ jobs
+[1]-  Stopped                 cat >> input.txt
+[2]+  Stopped                 less input.txt
+
+DELL@DESKTOP-8Q19HR3 MINGW64 /d/5G_Testing_Repo (master)
+$ ./countdown  200  > c.out
+bash: ./countdown: No such file or directory
+
+DELL@DESKTOP-8Q19HR3 MINGW64 /d/5G_Testing_Repo (master)
+$ date  >  output.txt
+
+DELL@DESKTOP-8Q19HR3 MINGW64 /d/5G_Testing_Repo (master)
+$ ls
+'5G_Testing_Repo - Shortcut.lnk'*   Linux_Commands.txt   commands_file.txt   items.txt    kernel_design.jpg   myfile.txt   products.txt
+ Intro-to-Linux_Commands.pdf        c.out                input.txt           kernel.png   linux_setup.pdf     output.txt   user/
+
+DELL@DESKTOP-8Q19HR3 MINGW64 /d/5G_Testing_Repo (master)
+$ cat  output.txt
+Thu Apr 24 17:36:28 IST 2025
+
+DELL@DESKTOP-8Q19HR3 MINGW64 /d/5G_Testing_Repo (master)
+$ ls  *.txt   >  alltextfiles.out
+
+DELL@DESKTOP-8Q19HR3 MINGW64 /d/5G_Testing_Repo (master)
+$ ls
+'5G_Testing_Repo - Shortcut.lnk'*   alltextfiles.out    input.txt    kernel_design.jpg   output.txt
+ Intro-to-Linux_Commands.pdf        c.out               items.txt    linux_setup.pdf     products.txt
+ Linux_Commands.txt                 commands_file.txt   kernel.png   myfile.txt          user/
+
+DELL@DESKTOP-8Q19HR3 MINGW64 /d/5G_Testing_Repo (master)
+$ cata alltextfiles.out
+bash: cata: command not found
+
+DELL@DESKTOP-8Q19HR3 MINGW64 /d/5G_Testing_Repo (master)
+$ cat  alltextfiles.out
+Linux_Commands.txt
+commands_file.txt
+input.txt
+items.txt
+myfile.txt
+output.txt
+products.txt
+
+DELL@DESKTOP-8Q19HR3 MINGW64 /d/5G_Testing_Repo (master)
+$ jobs  >  bgjobs.txt
+
+DELL@DESKTOP-8Q19HR3 MINGW64 /d/5G_Testing_Repo (master)
+$ cat  bgjobs.txt
+[1]-  Stopped                 cat >> input.txt
+[2]+  Stopped                 less input.txt
