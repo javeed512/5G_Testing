@@ -1,5 +1,8 @@
 101  mobile  50000
 102  laptop  65000
+102  laptop  65000
 103  books    2000
-104  toys       [D500
+104  toys      500
+104  toys      500
 105  charger  1200
+
