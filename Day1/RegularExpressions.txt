@@ -27,14 +27,10 @@ pattern:
 [a-z]{3,7} : tom , can , run  , javeed , linuxos 
 
 
-[A-Za-z]{4,*} : Javeed , javeed  , javEED , javeedsirfromhyderabad 
+[A-Za-z]{4,*} : Javeed , javeed  , javEED , 
 
 
 
-
-chmod  u+rwx  file1.txt
-
-chmod  u-x   file1.txt
 
 
 binary numbers
