@@ -5,7 +5,9 @@ echo  "Enter num2 value"
 read  num2
 
 
-let  result=$num1+$num2
+#let  result=$num1+$num2
+
+result=$((num1+num2))
 
 echo "Result is: $result"
 
