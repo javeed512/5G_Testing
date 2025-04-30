@@ -9,8 +9,10 @@ INSERT Command:
 It is used to create or insert new records in tables.
 
 syn1:   INSERT INTO Table_Name values(v1,v2,v3,...);
-syn2:   INSERT INTO Table_Name(c1,c2,c3)   values(v1,v2,v3);//remaining column values will taken as null
-syn3:  INSERT INTO Table_Name(v1,v2,v3,..)  , (v11,v12,v13,...) , (v21,v22,v23,...); // multiple records
+syn2:   INSERT INTO Table_Name(c1,c2,c3)   values(v1,v2,v3);
+		//remaining column values will taken as null
+syn3:  INSERT INTO Table_Name(v1,v2,v3,..)  , (v11,v12,v13,...) , (v21,v22,v23,...);
+		 // multiple records
 
 Examples:
 
@@ -109,9 +111,11 @@ insert;
 
 savepoint s3;
 
-rollback s2;
+rollback to s2;
 
-commit s1;
+commit to s1;
+
+commit to s2;
 
 
 

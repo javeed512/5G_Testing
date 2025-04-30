@@ -1,0 +1,25 @@
+Constraints:
+------------
+Set of Rules.
+
+PRIMARY KEY = NOT NULL + UNIQUE
+FOREIGN KEY (References) = Set of values from PK or Null value
+NOTNULL = Column value cannot be null , it should be some value
+UNIQUE  = Column values should be unique(duplicat is not allowed) but null                                 is allowed
+CHECK  = it is used for custom/user defined constraints
+ex:  EName varchar(30) Check(Ename = Upper(Ename))
+	
+
+
+CREATE TABLE Customer(Cid Integer PRIMARY KEY  auto_increment,
+                      CName varchar(20) NOT NULL ,
+                      email  varchar(30) UNIQUE ,
+		      City  varchar(20) CHECK (city = UPPER(city)),
+		       Pincode  Integer  default  0
+
+			);
+
+
+
+
+

@@ -62,7 +62,7 @@ RENAME:
 it is used to rename  table name or column name.
 
 
-RENAME  TABLE Students  Students_Info; // invalid in mysql
+RENAME  TABLE Students to  Students_Info; // invalid in mysql
 
 ALTER TABLE Students RENAME to  Students_Info;
 
