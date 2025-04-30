@@ -11,13 +11,71 @@ ex:  EName varchar(30) Check(Ename = Upper(Ename))
 	
 
 
-CREATE TABLE Customer(Cid Integer PRIMARY KEY  auto_increment,
+CREATE TABLE Customer(Cid Integer PRIMARY KEY  ,
                       CName varchar(20) NOT NULL ,
                       email  varchar(30) UNIQUE ,
 		      City  varchar(20) CHECK (city = UPPER(city)),
-		       Pincode  Integer  default  0
+		       Pincode  Integer  default  0,
+			age  int(3)  CHECK (age > 18) 
 
 			);
+
+
+
+
+
+CHECK (city = UPPER(city))
+
+    hyderabad = HYDERABAD
+
+    PUNE   = PUNE
+
+------------------------------------------------------------------------
+
+insert into customer  values(10,'Tom','tom@gmail.com','NEW YORK',50001,29);
+
+
+insert into customer  values(10,'Jerry','tom@gmail.com','NEW YORK2',50002,40);
+
+
+---------------------------------------
+
+Table mappings:
+
+one to one
+one to many
+many to one
+many to many
+
+
+
+PK (NON NULL + UNIQUE)  ---> FK
+
+UNIQUE ----> FK
+
+
+Note: When ever any table get PK or UNIQUE constraint columns immediately , one index will be created by system for that table.
+
+
+
+child table or detail table:
+----------------------------
+
+CREATE TABLE Products (
+Pid Int  PRIMARY KEY,
+ PName  varchar(25) NOT NULL, 
+Price decimal(10) , 
+Cid  Int  ,
+FOREIGN KEY(cid)  references Customer(cid)
+)
+
+
+
+---------------
+
+User defined INDEXes:
+
+CREATE INDEX Emp_Index ON Employee(ename,salary);
 
 
 
