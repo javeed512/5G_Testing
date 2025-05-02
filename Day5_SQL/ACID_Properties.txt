@@ -6,7 +6,7 @@ Note: In single transaction multiple operations can take place.
 Irrespective of system failure , transaction will either successful/commit or cancel/rollback  
 
 
-begin transaction 
+start transaction 
 
 insert
 insert
@@ -52,8 +52,8 @@ If the transaction fails after completion of T1 but before completion of T2.( sa
 Consistency:
 This means that integrity constraints must be maintained so that the database is consistent before and after the transaction. It refers to the correctness of a database. Referring to the example above, 
 The total amount before and after the transaction must be maintained. 
-Total before T occurs = 500 + 200 = 700. 
-Total after T occurs = 400 + 300 = 700. 
+Total before T1 occurs = 500 - 100 = 400. 
+Total after T1 occurs in T2 =  200 + 100 = 300. 
 Therefore, the database is consistent. Inconsistency occurs in case T1 completes but T2 fails. As a result, T is incomplete. 
 
 Isolation:
