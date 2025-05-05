@@ -1,0 +1,86 @@
+->Full Stack Python Development with AI/Generative AI(DSA & AWS):
+==============================================
+It is a Combination of FrontEnd Technologies and BackEnd Technologies with Databases.
+
+
+FrontEnd Technologies:
+================
+->HTML & HTML5
+->CSS & CSS3 Tailwind 
+->***JavaScript**** --->45 days daily hours
+->Bootstrap Latest Version
+->AngularJS
+->Angular
+->ReactJS
+
+If we are very strong in FrontEnd Technologies following positions are waiting for you
+in IT:
+=========================================================
+->JavaScript Developer 
+->Angular Developer
+->ReactJS Developer
+
+
+BackEnd Technologies:
+===============
+It is  a Combination of  Programming Languages/Frameworks/Libaries with Database.
+
+->Programming Languages:
+===================
+->Python
+         .Core Python
+         .Advance Python
+
+Frameworks/Libaries:
+==============
+->Django & Django_rest_framework
+->Flask & Flask_rest_full 
+->FastAPI
+
+
+Database Language:
+=============
+SQL/PLSQL
+
+
+->SDLC --->Software Development Life Cycle:
+
+->GIT/GITHUB
+
+
+->DSA
+   
+        ->An array module with array alogorithm
+        ->Seacrhing algorithms
+        ->Sorting algorithm
+       ->Binary Tree's
+       ->Graphs 
+       ->Stack Imp
+       ->Queue Imp 
+       ->Linked List
+                Single Linked List
+                Double Linked List
+                Circular Linked List 
+
+
+->AI
+     .LLM  ---->Large Language model
+     .ML 
+     .MLOP
+     .DL
+     .DLOP
+     .GTP_4
+     .Geberative AI
+     
+
+
+
+        
+
+
+
+
+
+
+
+

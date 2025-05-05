@@ -1,0 +1,145 @@
+->print()
+->id()
+->type()
+
+->print():
+======
+It is a predefine function in Python.The main objective of print() function is to 
+display the message/content on console/application console using '' or "",'''''',"""""" or variable_name(an identifier_name).
+
+
+Ex1:
+====
+print('Core Python Sessions are going on at IHUB')
+print("Core Python Sessions are going on at IHUB")
+print('''Core Python Sessions are going on at IHUB''')
+print("""Core Python Session are going on at IHUB""")
+Pid=1001 
+print(Pid)
+
+OUTPUT:
+======
+Microsoft Windows [Version 10.0.19045.5737]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\Admin\Desktop\Python with AI Development>Python demo1.py
+Core Python Sessions are going on at IHUB
+Core Python Sessions are going on at IHUB
+Core Python Sessions are going on at IHUB
+Core Python Session are going on at IHUB
+1001
+
+C:\Users\Admin\Desktop\Python with AI Development>python demo1.py
+Core Python Sessions are going on at IHUB
+Core Python Sessions are going on at IHUB
+Core Python Sessions are going on at IHUB
+Core Python Session are going on at IHUB
+1001
+
+C:\Users\Admin\Desktop\Python with AI Development>py demo1.py
+Core Python Sessions are going on at IHUB
+Core Python Sessions are going on at IHUB
+Core Python Sessions are going on at IHUB
+Core Python Session are going on at IHUB
+1001
+
+C:\Users\Admin\Desktop\Python with AI Development>
+
+
+Ex2:
+===
+print('Core Python Sessions are going on at IHUB')
+print()
+print("Core Python Sessions are going on at IHUB")
+print()
+print('''Core Python Sessions are going on at IHUB''')
+print()
+print("""Core Python Session are going on at IHUB""")
+print()
+Pid=1001 
+print(Pid)
+print()
+print("End of an application")
+
+
+Ex3:
+===
+print('AI Engineer')
+print()
+print()
+print()
+print('Full Stack Python Developer')
+print()
+print()
+print("Python Developer")
+print()
+print("End of an application")
+
+
+Q1)What is the difference between Program and Script?
+=====================================
+
+
+Python as a Program:
+==============
+If the developers/programmers/application developers/software developers are
+writing the business logic(Python Source Code) without any predefine module then
+it is said to be Python as a Program.
+
+
+Ex1:
+===
+print('Python Developer')
+print()
+print('Full Stack Python Developer')
+print()
+print('AI Engineer')
+print()
+print('DS Developer')
+print()
+print("End of an application")
+
+
+Python as a Scripting Language:
+=====================
+If the developers/programmers/application developers/software engineers
+are writing the business logic(Python Source Code) with one or more then 
+one predefine module then it is said to be Python as a Scripting language
+
+Note:
+====  
+       In Python Programming Language we do have 160000+ predefine module
+
+time module:
+=========
+It is a predefine module in Python.The main objective of time module is to work on
+time in hours_format and minute_Format,second_format.To use time module 
+in python we use import keyword followed predefine module name
+
+import time 
+time.sleep(3) ----> after message will be displayed
+
+
+Ex1:
+===
+import time 
+time.sleep(2)
+print("Welcome to Python as a Scripting Language")
+
+
+Ex2:
+===
+import time 
+print('A for Apple')
+print()
+print('B for Bannana')
+print()
+print('C for Carrot')
+print()
+print('D for Dragion_Fruit')
+print()
+time.sleep(3)
+print('End of an application')
+
+
+

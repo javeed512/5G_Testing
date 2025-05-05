@@ -1,0 +1,52 @@
+->Python with AWS Integreation:
+======================
+
+Three Live projects with end to end coding:
+============================
+->Angular and Django & Django_rest_framework ----> AWS
+
+->ReactJS and Django & Django_rest_framework ----> AWS
+
+->Desktop application with Data visualization tool ----> AWS
+
+
+->Full Stack Python Development with AI/Gen AI(DSA & AWS):
+==========================================
+
+Q1)What are the softwares do we require to learn Full Stack Python Development with AI/Gen AI?
+=================================================================
+
+->Python 3.7.0
+
+->IDET --->Visual studio code,Pycharm,Atom,Anacoda Python,Jyputer,
+subline_txt
+
+
+->Python Programming language:
+=======================
+
+Q1)How to create a Python new file?
+========================
+We can create a Python new file using .py extension with any_name.
+
+
+Valid_Python_Files:
+============
+demo1.py
+ihub1.py
+priya1.py 
+rahul1.pu 
+
+
+In_Valid_Python_File_Name:
+==================
+1234567.py
+ihub   1.py
+
+
+->print()
+->id()
+->type()
+
+
+

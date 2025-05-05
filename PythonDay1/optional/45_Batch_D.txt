@@ -1,0 +1,72 @@
+id():
+===
+It is a predefine function in Python.The main objective of id() function is to 
+know the address of a variable at memory allocation where our data/information
+stored.
+
+
+Ex1:
+===
+import time 
+Pid=1001 
+print(Pid)
+print()
+print(id(Pid))
+print()
+time.sleep(3)
+print("End of an application")
+
+
+Ex2:
+===
+import time 
+Pid=1001 
+print("Product_Id is:"Pid)
+
+OUTPUT:
+======
+
+C:\Users\Admin\Desktop\Python with AI Development>Python demo1.py
+  File "demo1.py", line 3
+    print("Product_Id is:"Pid)
+                            ^
+SyntaxError: invalid syntax
+
+C:\Users\Admin\Desktop\Python with AI Development>
+
+
+Ex3:
+==
+import time 
+Pid=1001 
+print("Product_Id is:",Pid)
+print()
+print("Memory_Address is:",id(Pid))
+print()
+time.sleep(3)
+print("End of an application")
+
+
+Q1)What is the difference between Java & Python Programming Language?
+==================================================
+
+Ex4:
+===
+import time 
+Pid=1001 
+print("Product_Id is:",Pid)
+print()
+print("Memory_Address is:",id(Pid))
+print()
+print("Data type is:",type(Pid))
+print()
+time.sleep(2)
+print("End of an application")
+
+
+An identifier/variable_declaration:
+======================
+
+
+
+
