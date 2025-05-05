@@ -1,0 +1,53 @@
+
+Programming Language concepts from C-lang
+Object Oriented Programming concepts from C++
+Shell scripting  concepts  from  shell scripting and Perl
+Dynamic type programming
+Interpreter based
+
+
+
+Python:
+-------
+It is Object Oriented , Programming and Shell scripting based language.
+It is procedural and object oriented and functional programming lang.
+Which is used to develop
+Web Apps
+Desktop Apps/software
+Games
+Networking
+Testing
+AI/ML
+IOT
+BigData
+
+
+Companies: Google ,Amazon, NASA , Gaming Industry .....
+
+python:
+
+a = 10; # dynamically typed lang
+
+a= true
+ a ="javeed"
+
+
+
+c-lang:
+
+#include <stdio.h>
+
+void main()
+{
+
+	int a = 10; // statically typed
+
+	a = true;// invalid
+
+
+	printf("Hello");
+
+
+}
+
+
