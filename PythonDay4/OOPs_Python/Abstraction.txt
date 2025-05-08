@@ -1,0 +1,21 @@
+Abstraction:
+
+Highlighting set of services , and hiding implementation code from End user.
+
+abstract class   Parent {
+
+	abstract void  show();  // @abstractmethod
+
+
+}
+
+
+class Child  extends Parent{
+
+	void show()
+	{
+
+		//logic
+	}
+
+}

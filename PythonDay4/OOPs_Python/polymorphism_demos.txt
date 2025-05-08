@@ -1,0 +1,69 @@
+
+class Person():
+
+	def __init__()	
+ 	
+          def	show():    // method or behavior
+		print("I am show from Person class")
+
+	  def  find(gender):
+		// logic-1
+  
+	  def  find(city,gender):    // method overloading
+		// logic-2	
+
+ // operator overloading  happens at compile-time
+ print(5 + 2)  // 7
+ print("hello " + " friends") // hello friends	
+
+
+class  Singer(Person):  // IS A Relationship or Inheritance
+
+	def __init__()
+
+
+        def   get():	
+
+
+	def  show():      // overriding the show() from Parent
+	   print("I am show from Singer class")
+
+    c = Car()  // HAS A Relationship
+
+		c.drive()
+		c.sale()
+
+
+
+
+
+    p = Person()
+
+	
+
+ print(type(p)) // Person
+
+	p.show()
+        p.get()
+
+   s  = Singer()
+
+	s.get()
+	s.show() // show() from Singer class
+
+	p  = s;  // Runtime polymorphism
+
+print(type(p))  // Singer
+
+	p.get()
+  
+
+ class Car():
+
+
+   c =  Car()
+   s =  Singer()
+
+	c = s;
+
+
