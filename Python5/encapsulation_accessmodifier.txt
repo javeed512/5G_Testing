@@ -1,0 +1,84 @@
+employee.py
+
+class  Employee():
+  
+      __init__(self,eid,ename,salary):
+	private	self.eid = eid
+  		self.ename = ename
+		self.salary = salary
+
+
+	def  setEid(self,eid):
+		self.eid = eid
+
+	def  setEname(self):
+		self.ename = ename
+
+	def   setSalary(self):
+		self.salary = salary
+
+        def   getEid():
+		return self.eid	
+
+
+  emp1 = Employee(101,'king',5000)
+
+	emp1.setSalary(9000)
+
+
+  emp2 = Employee()
+	emp2.setEid(102)
+
+===========================================
+
+test.py
+
+     emp = Employee()
+
+	emp.eid = 101 // not accessible bcz eid is private attribute
+
+	emp.setEid(101)
+        emp.setEname('tom')
+	emp.setSalary(9000)
+
+	 emp.getEid()  ---> 101
+         emp.getEname()   ---> tom
+	 emp.getSalary() ---> 
+
+   
+
+class   Account():
+
+	__init__(self,balance):
+	  self.__balance = balance  // private  having double underscore '_._'
+            self.ifsc = ifsc  // public
+	   self._city = city // protected bcz having single '_'
+		
+
+	self.balance = 5000
+
+	setBalance(balance):  // public
+
+	getBalance():    // public
+		return balance
+
+	deposit():    //public
+
+	withdraw():
+		
+=================
+
+class  Customer(Account):
+
+	account =  Account()
+
+account.balance // invalid bcz its private
+
+account.getBalance();  // a getter method use as an interface for user
+	
+account._city // valid
+
+[Check Balance]
+
+
+
