@@ -1,8 +1,8 @@
 
 
 import re
-line = "Cats are smarter than dogs";
-matchObj = re.match( r'dogs', line)
+line = "are smarter  Dogs than Cats";
+matchObj = re.match( r'cats', line,re.I|re.M)
 if matchObj:
    print ("match --> matchObj.group() : ", matchObj.group())
 else:

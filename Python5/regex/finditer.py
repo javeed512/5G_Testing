@@ -8,3 +8,4 @@ iterator = pattern.finditer(string)
 
 for match in iterator:
    print(match.span())
+   print(match.group())
