@@ -10,3 +10,5 @@ list2 = [x  for x in range(100)]
 f1  =  filter(lambda  i: i > 90 , list2)
 
 print(list(f1))
+
+
