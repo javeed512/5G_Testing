@@ -1,0 +1,39 @@
+
+
+XML Data 
+
+<employees>
+	<employee>
+	 	<eid>101</eid>
+		<ename>king</ename>
+		<salary>80000</salary>
+	</employee>
+
+	<employee>
+	 	<eid>102</eid>
+		<ename>smith</ename>
+		<salary>40000</salary>
+	</employee>
+
+</employees>
+
+
+
+
+JSON Data
+
+employees:{
+
+	{"eid":101,"ename":"king","salary":70000} ,
+	{"eid":102,"ename":"smith","salary":80000}	
+}
+
+
+
+
+
+
+
+
+
+
