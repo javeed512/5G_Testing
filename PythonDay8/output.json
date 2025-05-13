@@ -1,0 +1,27 @@
+
+{
+
+"customer_details":[
+    {
+        "Name": "King",
+        "Age": "45",
+        "City": "New york"
+    },
+    {
+        "Name": "Ford",
+        "Age": "35",
+        "City": "Chicago"
+    },
+    {
+        "Name": "Smith",
+        "Age": "25",
+        "City": "James Street"
+    },
+    {
+        "Name": "Adam",
+        "Age": "30",
+        "City": "Los Angeles"
+    }
+]
+
+}

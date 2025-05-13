@@ -31,7 +31,13 @@ json_data = {
 }
 
 # Convert JSON to XML
-xml_data = json2xml.
+data = json2xml.Json2xml(json_data)
 
 # Print the XML output
-print(xml_data)
+print(data.to_xml())
+
+#writing data to xml file after converting json into xml
+with open("xml_data_file.xml", "w") as xml_file:
+		xml_file.write(data.to_xml())
+
+

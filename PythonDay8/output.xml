@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<all>
+	<item type="str">"[\n    {\n        \"Name\": \"King\",\n        \"Age\": \"45\",\n        \"City\": \"New york\"\n    },\n    {\n        \"Name\": \"Ford\",\n        \"Age\": \"35\",\n        \"City\": \"Chicago\"\n    },\n    {\n        \"Name\": \"Smith\",\n        \"Age\": \"25\",\n        \"City\": \"James Street\"\n    },\n    {\n        \"Name\": \"Adam\",\n        \"Age\": \"30\",\n        \"City\": \"Los Angeles\"\n    }\n]"</item>
+</all>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<all>
+	<widget type="dict">
+		<debug type="str">on</debug>
+		<window type="dict">
+			<name type="str">main_window</name>
+			<width type="int">640</width>
+			<height type="int">480</height>
+		</window>
+		<image type="dict">
+			<src type="str">Images/Sun.png</src>
+			<name type="str">sun1</name>
+			<hOffset type="int">250</hOffset>
+			<vOffset type="int">250</vOffset>
+			<alignment type="str">center</alignment>
+		</image>
+		<text type="dict">
+			<data type="str">Click Here</data>
+			<size type="int">36</size>
+			<style type="str">bold</style>
+			<name type="str">text1</name>
+			<hOffset type="int">250</hOffset>
+			<vOffset type="int">100</vOffset>
+			<alignment type="str">center</alignment>
+			<onMouseUp type="str">sun1.opacity = (sun1.opacity / 100) * 90;</onMouseUp>
+		</text>
+	</widget>
+</all>

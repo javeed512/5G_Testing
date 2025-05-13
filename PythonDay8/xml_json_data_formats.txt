@@ -2,6 +2,8 @@
 
 XML Data 
 
+employees.xml
+--------------
 <employees>
 	<employee>
 	 	<eid>101</eid>
@@ -21,11 +23,15 @@ XML Data
 
 
 JSON Data
-
+employees.json
+---------------
 employees:{
 
 	{"eid":101,"ename":"king","salary":70000} ,
-	{"eid":102,"ename":"smith","salary":80000}	
+	{"eid":102,"ename":"smith","salary":80000 ,
+	   address:{"aid":20,"city":"hyd","state":"TS"}  
+
+	}	
 }
 
 
